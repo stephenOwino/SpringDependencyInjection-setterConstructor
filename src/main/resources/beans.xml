@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id ="student" class="com.stephenowino.SpringDependencyInjectionsetterConstructor.Student">
+        <property name="name" value="stephen Otieno Owino"/>
+        <property name="id" value="1"/>
+    </bean>
+
+
+    <bean id ="joyce" class="com.stephenowino.SpringDependencyInjectionsetterConstructor.Student">
+        <property name="name" value="joyce e"/>
+        <property name="id" value="2"/>
+    </bean>
+
+</beans>
